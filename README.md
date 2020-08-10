@@ -2,6 +2,16 @@
 
 For my final year dissertation/project, I demonstrated that super resolution GANs can be employed to upscale images while restoring quality to them. In form of reducing production and video encoding artifacts on stills taken from said videos. By adopting an enhanced deep residual network super resolution (EDSR) network, altering its architecture and applying it to a real-world problem. Scaling images 4x their initial resolution, then restoring clarity and detail to the stills. Despite knowing nothing about machine learning and neural networks prior to undertaking this project.
 
+## Results
+
+These materials would be taken from; Woody Woodpecker in Pantry Panic (public domain) and Oggy &
+the Cockroaches (Creative Commons Attribution). Transformed into 320px by 240px and encoded
+into an MP4 file at 512kb/s prior to upscaling 4x and having quality restored via the neural network.
+
+**Left - upscaled result from the neural network after being trained on cartoons, right - input data.**
+![Woody Woodpecker in Pantry Panic](https://i.imgur.com/0MMxEzT.png "Woody Woodpecker in Pantry Panic")
+![Oggy and the Cockroaches](https://i.imgur.com/jOzAedw.png "Oggy and the Cockroaches")
+
 ## Batch Normalization
 Despite how common the usage of batch normalization is in modern model creation. The understanding of its effects is tenuous, at best. Despite the originating paper stating that batch normalization reduces the internal covariate shift (Loffe & Szegedy, 2015). Follow-up research from MIT indicated that its effect on the internal covariate shift fluctuates in accordance to the context of the network. It goes to later imply that batch normalization impacts the Lipschitzness of the network’s loss and gradients (Santurkar, Tsipras, Ilyas, & Madry, 2018). Thus, making them smoother, less erratic, and allowing for higher learning rates. Increasing the performance of the network.
 
