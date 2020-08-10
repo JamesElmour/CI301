@@ -1,4 +1,4 @@
-# Resobust Neural Network Powered Cartoon Restoration
+# Robust Neural Network Powered Cartoon Restoration with TensorFlow
 
 For my final year dissertation/project, I demonstrated that super resolution GANs can be employed to upscale images while restoring quality to them. In form of reducing production and video encoding artifacts on stills taken from said videos. By adopting an enhanced deep residual network super resolution (EDSR) network, altering its architecture and applying it to a real-world problem. Scaling images 4x their initial resolution, then restoring clarity and detail to the stills. Despite knowing nothing about machine learning and neural networks prior to undertaking this project.
 
